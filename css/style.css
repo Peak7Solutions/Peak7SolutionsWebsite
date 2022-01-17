@@ -2214,6 +2214,12 @@ label {
       .social-media a { padding: 0 10px; }
 
   }
+
+  /* custom css telephone */
+  a[href^="tel:"]:before {
+    content: "\260e";
+    margin-right: 10px;
+  }
   
 
     
