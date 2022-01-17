@@ -115,7 +115,7 @@
     // CONTACT PAGE
 
       function initialize() {
-        var myLatLong = new google.maps.LatLng(40.7556,-73.9797);
+        var myLatLong = new google.maps.LatLng(32.02505161781225, -80.8523655985311);
         var mapOptions = {
           center: myLatLong,
           scrollwheel: false,
@@ -127,7 +127,7 @@
         var marker = new google.maps.Marker({
             position: myLatLong,
             map: map,
-            title:"123 Broadway"
+            title:"Tybee Island, GA 31328"
         });
 
       }
